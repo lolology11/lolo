@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إدارة المكتبة</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>إدارة المكتبة</h2>
+
+        <!-- إضافة كتاب جديد -->
+        <div class="form-container">
+            <h3>إضافة كتاب جديد</h3>
+            <form id="bookForm">
+                <input type="text" id="bookTitle" placeholder="عنوان الكتاب" required>
+                <input type="text" id="borrowerName" placeholder="اسم المستعير" required>
+                <button type="submit">إضافة الكتاب</button>
+            </form>
+        </div>
+
+        <!-- إضافة مستخدم جديد -->
+        <div class="form-container">
+            <h3>إضافة مستخدم جديد</h3>
+            <form id="userForm">
+                <input type="text" id="username" placeholder="اسم المستخدم" required>
+                <input type="password" id="password" placeholder="كلمة المرور" required>
+                <button type="submit">إضافة المستخدم</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
